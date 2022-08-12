@@ -1,0 +1,883 @@
+a {
+  font-size: 16px;
+}
+body {
+  background: rgb(33, 0, 97);
+  background: linear-gradient(
+    138deg,
+    rgba(33, 0, 97, 1) 21%,
+    rgb(3, 6, 94) 54%,
+    rgba(33, 0, 97, 1) 85%
+  );
+
+  color: aliceblue;
+  font-family: "inter";
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "inter";
+  font-style: bold;
+  font-size: 110px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 30px;
+}
+h4 {
+  color: white;
+  font-size: 24px;
+}
+
+h2 {
+  color: aliceblue;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: bold;
+}
+
+h5 {
+  color: yellow;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: bold;
+}
+
+li {
+  color: white;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  color: yellow;
+}
+
+/* Barra horizontal, junto al menu hamburguesa*/
+
+.list {
+  display: flex;
+  height: 22px;
+  justify-content: space-between;
+  align-items: center;
+}
+.anchor1 {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* FIN Barra horizontal, junto al menu hamburguesa*/
+
+/*DIGITAL AGENCY */
+
+.boton-principal {
+  background-color: transparent;
+  border: transparent;
+}
+
+.info-digital-agency {
+  height: 970px;
+}
+
+.digital-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.digital-principal span {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+.digital-principal img {
+  position: absolute;
+  left: 260px;
+  top: 150px;
+}
+
+.body-text {
+  position: absolute;
+  left: 400px;
+  top: 450px;
+}
+
+.body-text span {
+  position: absolute;
+  left: 1px;
+  top: 50px;
+}
+
+/* IMAGENES DIGITAL AGENCY*/
+
+.team {
+  position: absolute;
+  left: 850px;
+  top: 350px;
+}
+
+.team-video-logo {
+  position: absolute;
+  left: 1080px;
+  top: 740px;
+}
+
+.lines-decoration {
+  position: absolute;
+  left: 620px;
+  top: 140px;
+}
+
+.reunion {
+  position: absolute;
+  left: 70px;
+  top: 630 px;
+}
+
+.circle-met {
+  position: absolute;
+  top: 860px;
+  left: 200px;
+}
+
+.scroll {
+  position: absolute;
+  left: 500px;
+  transform: rotate(-90deg);
+}
+
+/* FIN IMAGENES DIGITAL AGENCY*/
+
+/* Boton OUR PROJECTS*/
+.our-projects {
+  margin: 100px 0px;
+  display: inline-block;
+  left: 385px;
+  top: 60px;
+}
+
+.primary-anchor {
+  background-color: #fab300;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  position: relative;
+}
+
+.primary-anchor img {
+  position: absolute;
+  top: 17px;
+  left: 150px;
+}
+
+.primary-anchor:hover {
+  background-color: #b68406;
+}
+
+.contact-us {
+  position: relative;
+  top: 450px;
+  left: 190px;
+}
+
+/* FIN Boton OUR PROJECTS*/
+
+/*FIN DIGITAL AGENCY */
+
+/*MAIN INFO DALIO */
+
+.info-dalio {
+  height: 500px;
+}
+
+.title-main {
+  position: absolute;
+  top: 1000px;
+  left: 200px;
+}
+
+.title-main span {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+}
+
+.first-text {
+  position: absolute;
+  top: 1150px;
+  left: 200px;
+  width: 500px;
+  line-height: 30px;
+}
+
+.image-main {
+  position: absolute;
+  right: 100px;
+}
+
+/* Lista de los "porcentajes"*/
+.list-numbers {
+  display: flex;
+  align-items: center;
+  width: 966px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.list-numbers li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 165.5px;
+}
+.first-span {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.second-span {
+  color: rgb(255, 255, 255);
+  font-size: 19 px;
+}
+
+/*FIN MAIN INFO DALIO */
+
+/* OUR SOLUTION APPROACH*/
+
+.info-analysis {
+  padding-top: 116px;
+  height: 790px;
+  position: relative;
+  top: 115.5px;
+}
+
+.image-solution {
+  position: absolute;
+  left: 100px;
+  top: 300px;
+}
+
+.image-solution img {
+  height: auto;
+  width: 500px;
+}
+
+.list-solution {
+  display: flex;
+  flex-direction: column;
+  padding-top: 500px;
+}
+.background-order-solution {
+  display: flex;
+  position: relative;
+  top: -115px;
+}
+.background-decorative {
+  background-color: #fab300;
+  width: 525px;
+  height: 900px;
+}
+
+.background-semiblue {
+  background-color: #353f5b;
+  width: 810px;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-and-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-and-check img {
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+}
+
+.first-paragraph {
+  width: 414px;
+  line-height: 30px;
+}
+
+.second-paragraph {
+  line-height: 30px;
+  width: 400px;
+}
+
+.third-paragraph {
+  line-height: 30px;
+  width: 414px;
+}
+
+/* usar position absolute siempre xon z index al papa un relative y al div de la iamgen un absolute*/
+
+/* FIN OUR SOLUTION APPROACH*/
+
+/* SERVICE WE CAN HELP YOU*/
+
+.service-help {
+  margin-top: 150px;
+  width: 1140px;
+  height: 1278px;
+}
+
+.title-help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px 30px;
+}
+
+.title-help a {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  border: solid 2px #ffffff;
+  color: white;
+  text-decoration: none;
+}
+
+.title-help span {
+  position: relative;
+  top: 60px;
+  left: -380px;
+}
+
+.block-writing-ux {
+  margin: 80px 30px;
+  display: flex;
+  margin: 10px 20px;
+}
+
+.block-writing {
+  background-color: #353f5b;
+  margin: 10px 20px;
+  border-top-left-radius: 30px;
+  width: 555px;
+  height: 450px;
+}
+
+.block-writing img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.block-writing p {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  width: 500px;
+}
+
+.block-writing h3 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.block-writing a {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  border: solid 2px #ffffff;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+.block-ux {
+  background-color: #353f5b;
+  margin: 10px 20px;
+  border-top-right-radius: 30px;
+  width: 555px;
+  height: 450px;
+}
+
+.block-ux img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.block-ux p {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.block-ux h3 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.block-ux a {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  border: solid 2px #ffffff;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+.block-branding-web-design {
+  margin: 80px 30px;
+  display: flex;
+  margin: 10px 20px;
+}
+
+.block-branding {
+  background-color: #353f5b;
+  margin: 10px 20px;
+  border-bottom-left-radius: 30px;
+  width: 555px;
+  height: 450px;
+}
+
+.block-branding h3 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.block-branding p {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.block-branding img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.block-branding a {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  border: solid 2px #ffffff;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+.block-web-design {
+  background-color: #353f5b;
+  margin: 10px 20px;
+  border-bottom-right-radius: 30px;
+  width: 555px;
+  height: 450px;
+}
+
+.block-web-design h3 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.block-web-design p {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.block-web-design img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.block-web-design a {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  border: solid 2px #ffffff;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+/* FIN DE SERVICE WE CAN HELP YOU*/
+
+/*OUR LASTES PROJECTS*/
+.lastest-projects {
+  height: 1100px;
+}
+
+.move-marketing {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 1160px;
+  height: 700px;
+}
+
+.marketing-projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 900px;
+  position: relative;
+  left: 400px;
+}
+
+.marketing-projects-list ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px;
+  position: relative;
+  top: 100px;
+  right: 450px;
+  gap: 20px;
+}
+
+.marketing-projects-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.marketing-project-talent {
+  display: flex;
+  flex-direction: column;
+  width: 554px;
+}
+
+.marketing-project-talent img {
+  width: 500px;
+}
+
+.marketing-project-talent p {
+  width: 520px;
+  height: 87px;
+  line-height: 30px;
+}
+
+.marketing-project-talent h4 {
+  width: 400px;
+  font-weight: bold;
+}
+
+.marketing-project-bonfire {
+  display: flex;
+  flex-direction: column;
+  width: 554px;
+}
+
+.marketing-project-bonfire img {
+  width: 500px;
+}
+
+.marketing-project-bonfire p {
+  width: 520px;
+  height: 87px;
+  line-height: 30px;
+}
+
+.marketing-project-bonfire h4 {
+  width: 400px;
+  font-weight: bold;
+}
+
+.marketing-button-project {
+  background-color: #fab300;
+  border-radius: 30px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  position: relative;
+  top: 200px;
+  left: 550px;
+}
+
+.marketing-button-project button {
+  background-color: transparent;
+  border: transparent;
+}
+
+/* FIN OUR LASTES PROJECTS*/
+
+/* WHAT SAY HAPPY CLIENTS*/
+
+.comments h2 {
+  margin: 20px 60px 20px;
+}
+
+.button-aside {
+  background-color: #fab300;
+  border-radius: 40px;
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: 270px;
+}
+
+.button-aside button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.button-aside img {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.person {
+  background-color: #353f5b;
+  border-radius: 30px;
+  width: 750px;
+  height: 439px;
+  margin: 20px 50px 20px;
+}
+
+.bg-commentary img {
+  opacity: 0.2;
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.bg-commentary p {
+  width: 620px;
+  height: 150px;
+  line-height: 30px;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+.commentary {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.perfils {
+  color: #fab300;
+}
+
+.rating {
+  width: 112px;
+  height: 16px;
+  position: relative;
+  top: -14px;
+  left: 260px;
+}
+
+.flex-aside {
+  display: flex;
+}
+
+/*  FIN WHAT SAY HAPPY CLIENTS*/
+
+/* BLOG FROM INSIGHTS*/
+
+.description-1 {
+  width: 600px;
+  margin: 10px 60px 10px;
+}
+
+.description-2 {
+  width: 600px;
+  margin-top: 145px;
+}
+
+.description-1 img {
+  width: 554px;
+  height: 312px;
+}
+
+.description-jhon {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px;
+}
+
+.description-jhon span {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  width: 110px;
+  padding: 10px 10px 10px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.description-jhon a {
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 10px 10px 10px;
+  width: 100px;
+  border: solid 2px #ffffff;
+  color: white;
+  text-decoration: none;
+}
+
+.description-jhon h3 {
+  width: 600px;
+}
+
+.description-jhon p {
+  margin-top: 28.5px;
+}
+
+.move-move {
+  display: flex;
+}
+
+/* FIN BLOG FROM INSIGHTS*/
+
+/* FOOTER*/
+
+.bg-footer {
+  background-color: #353f5b;
+}
+
+.block-name-foo {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Sign Up to Receive Product Updates and More*/
+.block-form {
+  background-color: #fab300;
+  border-radius: 30px;
+  width: 624px;
+  height: 234px;
+  margin: 30px 30px 30px;
+}
+
+.block-form label {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: 40px;
+}
+
+.block-form input {
+  background-color: transparent;
+  border: transparent;
+  position: relative;
+  top: 120px;
+  left: -400px;
+  color: black;
+}
+
+.block-contact {
+  margin: 20px 100px 50px;
+  display: inline-flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.decoration-foo {
+  position: relative;
+  top: 130px;
+  left: 40px;
+  width: 528px;
+  height: 0px;
+  border: 1px solid #0a142f;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/*TERMINOS Y CONDICIONES*/
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 60px;
+}
+
+.terms a {
+  color: white;
+  text-decoration: none;
+}
+
+.terms ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.visually {
+  visibility: hidden;
+}
+/* FIN FOOTER*/

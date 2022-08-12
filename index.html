@@ -1,66 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./img/favicon-NC.ico" />
-    <title>Nelson Web</title>
-  </head>
-  <body>
-    <header>
-      <div class="navigation">
-        <h2>N<span>C</span></h2>
-        <nav>
-          <a href="./index.html">Home</a>
-          <a href="./curriculum.html">Curriculum</a>
-          <a href="./projects/portfolio.html">Portfolio</a>
-          <a href="./contact.html">Contact</a>
-        </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./img/favicon-NC.ico" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap" rel="stylesheet" />
+  <title>Nelson Web</title>
+</head>
+<body>
+  <header class="box">
+    <div class="navigation">
+      <div class="nav-a-edit">
+        <a href="#" target="_blank">N<span>C</span></a>
       </div>
-    </header>
-    <main>
-      <div class="info-content">
-        <h1>I'm <span>Nelson</span> Carranza</h1>
-        <p>
-          I am a web development student focused on learning and having more
-          capacity when working, I want to be a full stack in the future, I like
-          to teach people the knowledge I have acquired over time.
-        </p>
-        <img src="./img/me.jpg" alt="young man smiling looking at the camera behind some palm leaves" height="400px"
-        />
-      </div>
-      <div>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./curriculum.html">Curriculum</a>
+        <a href="./projects/portfolio.html">Portfolio</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="box">
+    <div class="info-content box">
+      <div class="border-tex">
         <article>
-          <h2>Skills TEC</h2>
-          <h2>HTML</h2>
-          <img src="./img/html-5-image.png" alt="" height="400">
-          <h2>CSS</h2>
-          <img src="./img/css-image.png" alt="" height="400">
-          <h2>JS</h2>
-          <img src="./img/js-image.jpg" alt="" height="400">
-        </article>
+          <h1>Hi, i'm <span>Nelson</span> Carranza</h1>
+          <p>
+            I am a web development student focused on learning and having more
+            capacity when i'm working. I want to be a full stack in the future. I
+            like to teach people the knowledge I had acquired over time.
+          </p>
       </div>
-      <div class="Block-projects">
-        <h2>my latest projects</h2>
-        <a href="./projects/DALIO/HTML/index.html" target="_blank">DALIO</a>
-        <img src="./img/dalio-image.png" alt="" height="400" />
-        <a href="./projects/BICCAS/Nelson_Carranza/html/index.html" target="_blank">BICCAS</a>
-        <img src="./img/biccas-image.png" alt="" height="400" />
+      <div class="image-me-main">
+        <img src="./img/me.jpg" alt="profile picture" />
       </div>
-    </main>
-    <footer>
-      <div>
-        <p>Contact me if you want to collaborate on a project or learn more about my work.</p>
-        <h2>Contact</h2>
-        <p>nelsoncarranzagamboa@gmail.com</p>
-        <p>+506 71482092</p>
-        <h2>Follow me </h2>
-        <a href="https://www.instagram.com/carranza_08_/" target="_blank"> <img src="./img/incon-insta.png" alt=""></a>
-        <a href="https://www.facebook.com/nelson.carranza.3766" target="_blank"><img src="./img/icon-face.png" alt=""></a>
-        <a href="https://twitter.com/Crranza_08" target="_blank"> <img src="./img/icon-twitter.png" alt=""></a>
-       
+      </article>
+    </div>
+    <div>
+      <article class="box">
+        <div class="block-skills">
+          <h2>TECH<span> SkillS</span></h2>
+          <div class="decorate-html">
+            <h3>HTML</h3>
+            <img src="./img/html-5-image.png" alt="" height="400" />
+          </div>
+          <div class="decorate-css">
+            <h3>CSS</h3>
+            <img src="./img/css-image.png" alt="" height="400" />
+          </div>
+          <div class="decorate-js">
+            <h3>JS</h3>
+            <img src="./img/js-image.png" alt="" height="400" />
+          </div>
+          <div class="decorate-figma">
+            <h3>FIGMA</h3>
+            <img src="./img/figma-image.png" alt="" height="400" />
+          </div>
+        </div>
+      </article>
+      <div class="Block-last-projects">
+        <h2>
+          My <span  class="space"> latest projects</span>
+        </h2>
+        <div class="move-dalio">
+          <a href="./projects/DALIO/HTML/index.html" target="_blank">DA<span>LIO</span></a>
+          <img src="./img/dalio-image.png" alt="" />
+        </div>
+        <div class="move-biccas">
+          <a href="./projects/BICCAS/Nelson_Carranza/html/index.html" target="_blank">BI<span>CCAS</span></a>
+          <img src="./img/biccas-image.png" alt="" />
+        </div>
       </div>
-    </footer>
-  </body>
+  </main>
+  <footer class="box">
+    <div class="block-foo">
+      <div class="border-foo-solid">
+        <div class="block-collaborate">
+          <h3>Contact me if you want to collaborate on a project or learn more about my work.</h3>
+        </div>
+        <div class="block-contact-foo">
+          <h3>Contact</h3>
+          <a href="mailto:nelsoncarranzagamboa@gmail.com">nelsoncarranzagamboa@gmail.com</a>
+          <p>+506 71482092</p>
+        </div>
+        <div class="block-follow-me">
+          <h3>Follow me</h3>
+          <div>
+            <a href="https://www.instagram.com/carranza_08_/" target="_blank"><img src="./img/icon-insta.png" alt=""><a>
+            <a href="https://www.facebook.com/nelson.carranza.3766" target="_blank"><img src="./img/icon-face.png" alt="" /></a>
+            <a href="https://twitter.com/Crranza_08" target="_blank"><img src="./img/icon-twitter.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

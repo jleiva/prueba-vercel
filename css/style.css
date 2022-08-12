@@ -1,0 +1,386 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #000428;
+  background: -webkit-linear-gradient(to left, #004e92, #000428);
+  background: linear-gradient(to left, #004e92, #000428);
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 3.0);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #004e92;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, .2);
+  border-radius: 10px;
+}
+
+
+
+h1 {
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+p {
+  color: blanchedalmond;
+}
+
+span {
+  color: aqua;
+}
+
+nav {
+  padding: 40px 30px;
+}
+
+footer {
+  margin-left: 100px;
+}
+
+.box {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/*header */
+
+.navigation {
+  align-items: center;
+  padding: 30px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  border: solid 1px white;
+  border-radius: 30px;
+}
+
+/*nav-a-edit and navigation span together*/
+.nav-a-edit a {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  border: transparent solid 1px;
+}
+
+.navigation span {
+  color: aqua;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.navigation nav a {
+  border-radius: 5px;
+  color: rgb(194, 194, 194);
+  padding: 10px 20px;
+  background-image: linear-gradient(to left, transparent 50%, white 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: background-position 0.4s ease;
+  border: solid 1px;
+}
+
+.navigation nav a:hover {
+  background-position: left;
+  color: #000046;
+  border: white solid 1px;
+  border-radius: 5px;
+}
+
+/*end header*/
+
+/* Main info*/
+
+.info-content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-left: 100px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.info-content h1 {
+  font-size: 50px;
+  width: 600px;
+  padding: 0px 50px;
+  height: 100px;
+  color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.info-content p {
+  line-height: 30px;
+  width: 600px;
+  height: 0 auto;
+  padding: 10px 50px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  margin-top: 0;
+}
+
+.image-me-main img {
+  height: 300px;
+  border: solid transparent 3px;
+  border-radius: 500px;
+  position: absolute;
+  top: 5px;
+  left: 800px;
+}
+
+.border-tex {
+  border: solid 1px white;
+  border-radius: 30px;
+  width: 690px;
+}
+
+.space{
+  padding-left: 8px;
+}
+
+/*SKILLS TECCC*/
+
+.block-skills {
+  color: white;
+  border: solid 1px white;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 20px 20px;
+}
+
+.Block-last-projects {
+  color: white;
+
+  margin-top: 50px;
+}
+
+.block-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-skills h2 {
+  font-size: 50px;
+}
+
+.block-skills img {
+  height: 100px;
+}
+
+.block-skills h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.decorate-html {
+  border-radius: 30px;
+  width: 200px;
+}
+
+.decorate-html:hover {
+  border-radius: 30px;
+  width: 200px;
+  background-color: #013766;
+}
+
+.decorate-html img {
+  padding-left: 50px;
+}
+
+.decorate-css {
+  border-radius: 30px;
+  width: 200px;
+}
+
+.decorate-css:hover {
+  border-radius: 30px;
+  width: 200px;
+  background-color: #013766;
+}
+
+
+.decorate-css img {
+  padding-left: 50px;
+}
+
+.decorate-js {
+  border-radius: 30px;
+  width: 200px;
+}
+
+.decorate-js:hover {
+  border-radius: 30px;
+  width: 200px;
+  background-color: #02549c;
+}
+
+.decorate-js img {
+  padding-left: 10px;
+}
+
+
+.decorate-figma {
+  border-radius: 30px;
+  width: 200px;
+}
+
+.decorate-figma:hover {
+  border-radius: 30px;
+  width: 200px;
+  background-color: #02549c;
+}
+
+.decorate-figma img {
+  padding-left: 70px;
+}
+
+/*My lastest projects*/
+
+.Block-last-projects {
+  margin-left: 100px;
+  padding: 50px;
+}
+
+
+.Block-last-projects h2 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Block-last-projects a {
+  color: white;
+  font-size: 50px;
+}
+
+.move-dalio {
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.move-dalio a {
+  padding-top: 20px;
+}
+
+.move-dalio img {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: transparent solid 1px;
+  border-radius: 40px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+
+.move-biccas {
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 900px;
+  font-weight: bold;
+
+}
+
+.move-biccas a {
+  padding-top: 20px;
+}
+
+.move-biccas img {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: transparent solid 1px;
+  border-radius: 40px;
+  height: 400px;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+
+/*Footer*/
+
+.border-foo-solid {
+  border: solid white 1px;
+  border-radius: 30px;
+  display: flex;
+  padding-left: 50px;
+}
+
+.block-foo {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 50px 50px;
+  margin-left: 100px;
+}
+
+.block-foo img:hover {
+  transform: scale(1.0);
+  padding: 10px;
+}
+
+.block-contact-foo a {
+  color: white;
+  background: -webkit-linear-gradient(to left, #004e92, #000428);
+  background: linear-gradient(to left, #004e92, #000428);
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 10px 10px;
+}
+
+.block-collaborate h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 310px;
+}
+
+
+.block-contact-foo {
+  padding: 10px;
+  width: 300px;
+  color: white;
+}
+
+.block-follow-me {
+  width: 300px;
+  padding: 10px;
+}

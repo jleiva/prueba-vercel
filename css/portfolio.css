@@ -1,0 +1,302 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "inter";
+  background: #000428;
+  background: -webkit-linear-gradient(to left, #004e92, #000428);
+  background: linear-gradient(to left, #004e92, #000428);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 3);
+}
+
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #004e92;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, .2);
+  border-radius: 10px;
+}
+
+.box {
+  max-width: 1240px;
+  margin: 0 0 50px 0;
+}
+
+/*header */
+
+.navigation {
+  align-items: center;
+  padding: 30px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  border: solid 1px white;
+  border-radius: 30px;
+}
+
+/*nav-a-edit and navigation span together*/
+.nav-a-edit a {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  border: transparent solid 1px;
+}
+
+.navigation span {
+  color: aqua;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.navigation nav a {
+  border-radius: 5px;
+  color: rgb(194, 194, 194);
+  padding: 10px 20px;
+  background-image: linear-gradient(to left, transparent 50%, white 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: right;
+  transition: background-position 0.4s ease;
+  border: solid 1px;
+}
+
+.navigation nav a:hover {
+  background-position: left;
+  color: #000046;
+  border: white solid 1px;
+  border-radius: 5px;
+}
+
+/*end header*/
+
+
+/*MAIN*/
+.biccas_project {
+  border: solid 1px white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.biccas_project img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.biccas_project p {
+  padding: 35px;
+  font-size: 20px;
+}
+
+.biccas_project a {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.dalio_project {
+  border: solid 1px white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 700px;
+  margin-left: 540px;
+  margin-top: 40px
+}
+
+.dalio_project img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.dalio_project p {
+  padding: 35px;
+  font-size: 20px;
+}
+
+.dalio_project a {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.zodiac_project {
+  border: solid 1px white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.zodiac_project img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.zodiac_project p {
+  padding: 35px;
+  font-size: 20px;
+}
+
+.zodiac_project a {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.notes_project {
+  border: solid 1px white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 700px;
+  margin-left: 540px;
+  margin-top: 40px
+}
+
+.notes_project img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.notes_project p {
+  padding: 35px;
+  font-size: 20px;
+}
+
+.notes_project a {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.calculator_project {
+  border: solid 1px white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.calculator_project img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.calculator_project p {
+  padding: 35px;
+  font-size: 20px;
+}
+
+.calculator_project a {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.tripletes_project {
+  border: solid 1px white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 700px;
+  margin-left: 540px;
+  margin-top: 40px
+}
+
+.tripletes_project img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.tripletes_project p {
+  padding: 35px;
+  font-size: 20px;
+}
+
+.tripletes_project a {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+/*END MAIN*/
+/*Footer*/
+
+.border-foo-solid {
+  border: solid white 1px;
+  border-radius: 30px;
+  display: flex;
+  padding-left: 50px;
+}
+
+.block-foo {
+  align-items: center;
+  border: solid 1px white;
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 50px 50px;
+  margin-left: 100px;
+}
+
+.block-foo img:hover {
+  transform: scale(1);
+  padding: 10px;
+}
+
+.block-collaborate h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 310px;
+}
+
+.block-contact-foo {
+  padding: 10px;
+  width: 300px;
+  color: white;
+}
+
+.block-follow-me {
+  width: 300px;
+  padding: 10px;
+}
+
+.block-contact-foo a {
+  color: white;
+  background: -webkit-linear-gradient(to left, #004e92, #000428);
+  background: linear-gradient(to left, #004e92, #000428);
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 10px 10px;
+}

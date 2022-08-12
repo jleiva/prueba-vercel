@@ -1,0 +1,850 @@
+/*AFECTA A TODO EL HTML*/
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: rgb(84, 189, 149);
+  background: linear-gradient(
+    125deg,
+    rgba(84, 189, 149, 1) 0%,
+    rgba(255, 255, 255, 1) 16%
+  );
+  font-family: "inter";
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.box {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+/* FIN AFECTA A TODO EL HTML*/
+
+/*HEADER*/
+.navigation {
+  display: flex;
+}
+.navigation-line {
+  padding-top: 48px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-menu ul:first-child {
+  margin-right: 178px;
+  gap: 40px;
+}
+
+.navigation-menu ul:last-child {
+  gap: 20px;
+}
+
+.navigation-menu a {
+  font-weight: 600px;
+  color: #a6a6a6;
+}
+
+.navigation-menu ul :hover {
+  color: black;
+}
+.achor a {
+  font-size: 50px;
+  color: #54bd95;
+}
+
+li .anchor-home {
+  font-size: 18px;
+  color: #000;
+}
+
+.button-sign-up a {
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: #54bd95;
+  color: #fff;
+}
+
+.button-sign-up :hover {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 2px solid #54bd95;
+  background: none;
+  color: #54bd95;
+}
+/*FIN HEADER*/
+
+/*We're here to increaase your productivity*/
+
+.flex-publish {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-publish {
+  max-width: 645px;
+}
+
+.content-publish p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 50px 0px;
+  line-height: 30px;
+  width: 461px;
+}
+
+.content-publish {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.title-publish {
+  width: 555px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-publish img {
+  height: 26px;
+  width: 479px;
+}
+
+.order-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.order-buttons img {
+  position: relative;
+  top: 14px;
+  left: 10px;
+}
+
+.button-free-trial button {
+  color: #f5f5f5;
+  background-color: #54bd95;
+  border-radius: 20px;
+  border: #54bd95;
+  padding: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-free-trial :hover {
+  color: #54bd95;
+  background-color: transparent;
+  border-radius: 20px;
+  border: solid #54bd95;
+  padding: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-view-demo button {
+  background-color: transparent;
+  border: #f5f5f5;
+  padding: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-view-demo :hover {
+  border: solid #54bd95;
+  border-radius: 20px;
+  background-color: transparent;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image-man {
+  position: relative;
+  top: 80px;
+  left: 5px;
+}
+
+/* FIN We're here to increaase your productivity*/
+
+/*More than 25k*/
+.margin-total {
+  margin-top: 100px;
+}
+
+.box {
+  max-width: 1180px;
+  margin: 0 auto;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list1 {
+  color: #a6a6a6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  text-align: center;
+}
+.order h2 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/*FIN More than 25k*/
+
+/*How we support our pratner all over the world*/
+
+.block-how-support {
+  width: 1320px;
+  height: 700px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.flex-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.publish {
+  width: 644px;
+  height: 530px;
+  margin-left: 70px;
+}
+
+.publish h2 {
+  width: 617px;
+  font-size: 45px;
+}
+
+.publish p {
+  line-height: 30px;
+  font-size: 16px;
+  color: #a6a6a6;
+  margin-top: 70px;
+}
+
+.flex-publishing {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 130px;
+}
+
+.rating-one {
+  width: 142px;
+  height: 106px;
+}
+
+.rating-two {
+  width: 142px;
+  height: 106px;
+}
+
+.list-publishing {
+  width: 509px;
+  height: 610px;
+}
+
+.list-publishing li {
+  margin-left: 40px;
+}
+
+.list-publishing img {
+  background-color: whitesmoke;
+  left: -50px;
+  position: relative;
+  top: 60px;
+}
+
+.list-publishing h2 {
+  font-size: 28px;
+}
+
+.list-publishing p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #a6a6a6;
+}
+
+/*FIN How we support our pratner all over the world*/
+
+/*Our Features you cab get*/
+.our-border {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.marketing-line-our {
+  align-items: center;
+  display: flex;
+  height: 160px;
+  justify-content: space-between;
+  margin-left: 40px;
+  width: 1180px;
+}
+
+.marketing-line-our h2 {
+  font-size: 50px;
+  width: 331px;
+}
+.marketing-line-our p {
+  color: #a6a6a6;
+  font-size: 18px;
+  line-height: 30px;
+  width: 490px;
+}
+
+.marketing-line-our a {
+  background-color: #54bd95;
+  border-radius: 30px;
+  color: #fff;
+  padding: 18px 20px;
+}
+
+.marketing-line-our a:hover {
+  background-color: transparent;
+  border-radius: 30px;
+  border: solid #54bd95;
+  color: #54bd95;
+  padding: 18px 20px;
+}
+
+.flex-block {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  width: 1180px;
+}
+
+.flex-block p {
+  color: #a6a6a6;
+}
+
+.block-image-one {
+  height: 600px;
+  width: 364px;
+}
+
+.block-image-one img {
+  height: 400px;
+  width: 360px;
+}
+
+.block-image-two {
+  height: 600px;
+  width: 364px;
+}
+
+.block-image-two img {
+  height: 400px;
+  width: 364px;
+}
+
+.block-image-three {
+  height: 600px;
+  width: 364px;
+}
+
+.block-image-three img {
+  height: 400px;
+  width: 364px;
+}
+/* FIN Our Features you cab get*/
+
+/*What Benifit Will You Get*/
+.border-what-benefit {
+  align-items: center;
+  display: flex;
+  gap: 200px;
+  height: 670px;
+  margin-top: 60px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1225px;
+}
+
+.box-benifit {
+  height: 640px;
+  margin-left: 40px;
+  width: 475px;
+}
+
+.box-benifit h2 {
+  font-size: 50px;
+}
+
+.box-benifit img {
+  position: relative;
+  right: 40px;
+  top: 45px;
+}
+
+.flex-images-benifit {
+  height: 640px;
+  margin-top: 100px;
+  width: 475px;
+}
+
+.position-amanda {
+  left: -150px;
+  position: relative;
+  top: -500px;
+}
+
+.position-galery {
+  left: -80px;
+  position: relative;
+  top: -370px;
+}
+
+.position-money {
+  left: -100px;
+  position: relative;
+  top: -210px;
+}
+
+.position-income {
+  position: relative;
+  top: -660px;
+  right: -350px;
+}
+/*FIN What Benifit Will You Get*/
+
+/*Choose Plan That’s Right For You*/
+.border-main {
+  margin-top: 100px;
+  width: 1180px;
+  height: 1200px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 40px;
+}
+
+.align-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.align-description h2 {
+  font-size: 50px;
+  font-weight: bold;
+  width: 492px;
+}
+
+.align-description p {
+  color: #a6a6a6;
+}
+
+.buttons-choose {
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+
+.button-yearly {
+  background-color: #54bd95;
+  border-radius: 5px;
+  border: solid 2px #54bd95;
+  padding: 10px 25px;
+}
+.button-yearly button {
+  color: #fff;
+}
+
+.button-yearly button:hover {
+  color: #54bd95;
+}
+
+.button-yearly:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  border: solid 2px #54bd95;
+  padding: 10px 25px;
+}
+
+.flex-modes {
+  display: flex;
+  gap: 30px;
+}
+
+.mode-free {
+  width: 374px;
+  height: 690px;
+  border-radius: 30px;
+  margin-top: 100px;
+  background-color: white;
+}
+
+.mode-free ul img {
+  position: relative;
+  top: 40px;
+}
+
+.mode-free ul p {
+  position: relative;
+  left: 50px;
+  top: -10px;
+}
+
+.mode-free a {
+  background-color: transparent;
+  border-radius: 20px;
+  border: solid 2px #ffffff;
+  color: #54bd95;
+  padding: 8px 16px;
+  position: relative;
+  left: 110px;
+}
+
+.mode-free a:hover {
+  background-color: #54bd95;
+  border-radius: 20px;
+  border: solid 2px #54bd95;
+  color: white;
+  padding: 8px 16px;
+  position: relative;
+  left: 110px;
+}
+
+.sects-modes {
+  width: 210px;
+  height: 169px;
+  margin-left: 80px;
+}
+
+.sects-modes section h3 {
+  color: black;
+  font-size: 30px;
+}
+
+.sects-modes section p {
+  color: #a6a6a6;
+  font-size: 18px;
+}
+
+.sects-modes img {
+  margin-left: 80px;
+}
+
+.sects {
+  width: 210px;
+  height: 169px;
+  margin-left: 80px;
+  color: white;
+}
+
+.sects img {
+  position: relative;
+  left: 70px;
+}
+
+.sects h2 {
+  position: relative;
+  left: 70px;
+  font-size: 30px;
+}
+
+.sects p {
+  font-size: 16px;
+}
+
+.mode-pro {
+  background-color: #54bd95;
+  border-radius: 30px;
+  height: 870px;
+  margin-top: 50px;
+  width: 374px;
+}
+
+.block-bg {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 35px;
+  position: relative;
+  width: 266px;
+}
+
+.button-save a {
+  background-color: #85dab9;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 30px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.button-save a:hover {
+  background-color: transparent;
+  border-radius: 10px;
+  border: solid white;
+  color: white;
+  padding: 10px 30px;
+}
+
+.button-pro {
+  background-color: #54bd95;
+  border: solid 2px white;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.button-pro:hover {
+  background-color: transparent;
+  border: solid 2px #54bd95;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.button-pro button {
+  color: white;
+  font-size: 20px;
+}
+
+.button-pro button:hover {
+  color: #54bd95;
+  font-size: 20px;
+}
+.bg-light {
+  background-color: #ffffff;
+  border-radius: 10px;
+  left: 18px;
+  position: relative;
+  width: 334px;
+  height: 550px;
+  top: 100px;
+}
+
+.mode-pro ul img {
+  position: relative;
+  top: 30px;
+  left: -40px;
+}
+
+.mode-pro ul p {
+  position: relative;
+  top: -20px;
+}
+
+.mode-business {
+  width: 374px;
+  height: 700px;
+  border-radius: 30px;
+  margin-top: 100px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mode-business section p {
+  color: #a6a6a6;
+}
+
+.mode-business section img {
+  position: relative;
+  left: -40px;
+}
+
+.mode-business ul img {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.mode-business ul p {
+  position: relative;
+  left: 60px;
+}
+
+.button-goto button {
+  background-color: transparent;
+  border-radius: 20px;
+  border: solid 2px #ffffff;
+  color: #54bd95;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  left: 100px;
+}
+
+.button-goto :hover {
+  background-color: #54bd95;
+  border-radius: 20px;
+  border: solid 2px #54bd95;
+  color: white;
+  padding: 8px 16px;
+}
+
+/*FIN Choose Plan That’s Right For You*/
+
+/*People are Saying About DoWhith*/
+
+/*BG DE PEOPLE ARE SAYING*/
+.bg-foo {
+  background-color: #161c28;
+  width: 1440px;
+  height: 1250px;
+  margin-top: 100px;
+}
+
+/*BG DE PEOPLE ARE SAYING*/
+
+.flex-publish-2 {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 50px;
+  align-items: center;
+}
+
+/* PEOPLE ARE SAYING ABOUT DOWHITH*/
+.block-people {
+  height: 720px;
+  color: #ffffff;
+}
+
+.block-people h2 {
+  font-size: 50px;
+  width: 444px;
+}
+.block-people p {
+  width: 461px;
+  height: 90px;
+
+  font-size: 18px;
+  line-height: 30px;
+  font-style: normal;
+  color: #a6a6a6;
+}
+.block-people button {
+  border-radius: 100%;
+  border: #161c28;
+}
+
+/*FIN DE PEOPLE ARE SAYING ABOUT DOWHITH*/
+
+.block-foo {
+  margin-top: 170px;
+}
+.form-one-foo {
+  padding: 40px 86px 66px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #fff;
+  background: #222938;
+}
+.form-one-foo input::placeholder {
+  color: #a6a6a6;
+}
+.form-one-foo form {
+  flex-direction: column;
+  gap: 20px;
+}
+.form-one-foo input[type="email"],
+.form-one-foo textarea,
+.form-one-foo button {
+  border-radius: 10px;
+}
+.form-one-foo input[type="email"] {
+  padding: 17px 0 17px 20px;
+  border: none;
+}
+.form-one-foo textarea {
+  height: 80px;
+  padding: 20px 0 43px 20px;
+}
+.form-one-foo button {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  background-color: #54bd95;
+}
+
+.form-one-foo button:hover {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  color: #54bd95;
+  background-color: white;
+  border: 2px solid #54bd95;
+}
+
+.footer-sect {
+  width: 410px;
+}
+
+.footer-sect h3 {
+  font-size: 50px;
+  line-height: 30px;
+  color: #54bd95;
+}
+.footer-sect p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #a6a6a6;
+}
+
+.block-list-foo {
+  width: 600px;
+}
+
+.block-list-foo ul h3 {
+  color: white;
+  width: 174px;
+}
+
+.block-list-foo ul a {
+  color: #a6a6a6;
+  line-height: 30px;
+}
+.block-foo {
+  display: flex;
+  gap: 100px;
+  margin-top: 10px;
+  width: 1180px;
+  margin-left: 200px;
+  height: 300px;
+}
+
+.footer-sect {
+  height: 300px;
+}
+.footer-sect form {
+  width: 330px;
+  border-radius: 70px;
+  padding: 15px 15px;
+  border: 2px solid #fff;
+}
+.footer-sect input {
+  width: 250px;
+  border: none;
+  background: none;
+}
+.footer-sect button {
+  background-color: #54bd95;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  padding: 10px 10px 10px;
+}
+
+.block-terms h5 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.block-terms a {
+  color: #fff;
+  padding-left: 300px;
+}
+
+/*FIN People are Saying About DoWhith*/
